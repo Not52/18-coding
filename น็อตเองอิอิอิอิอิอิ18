@@ -1,0 +1,6 @@
+price = float(input("กรอกราคาของที่ต้องการซื้อ (บาท): "))
+days = int(input("กรอกจำนวนวันที่ต้องการออม: "))
+
+per_day = price / days
+
+print("คุณต้องออมวันละ {:.2f} บาท".format(per_day))
